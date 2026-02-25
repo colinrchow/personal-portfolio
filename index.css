@@ -128,3 +128,125 @@ nav {
 .icon:hover, .icon:focus {
     color: #64ffda;
 }
+
+
+/* modal */
+
+.modal {
+    background: #202733;
+    border-radius: 5px;
+    width: 700px;
+    height: 350px;
+    box-shadow: 0px 0px 6px 2px #666;
+    position: fixed;
+    inset: 0;
+    margin: auto;
+    display: none;
+}
+
+.close-btn-container {
+    display: flex;
+    justify-content: end;
+    padding-right: 10px;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    color: #ccd6f6;
+    font-size: 32px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.close-btn:hover, .close-btn:focus {
+    color: #64ffda;
+}
+
+.close-btn:active {
+    color: red;
+}
+
+.modal-inner {
+    width: 600px;
+    height: 250px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-inner-text {
+    width: 330px;
+}
+
+.modal-title {
+    font-size: 2rem;
+    font-weight: 300;
+    text-shadow: 0 0 6px #64ffda;
+    margin: 0 auto 25px auto;
+}
+
+.modal-title span {
+    display: block;
+}
+
+.modal-text {
+    color: #ccd6f6;
+}
+
+.modal-text {
+    margin-bottom: 30px;
+}
+
+.email-form {
+    width: 225px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+    gap: 15px;
+    align-self: start;
+}
+
+label {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 200;
+    font-size: 1rem;
+    color: #64ffdbbd;
+}
+
+.email-form-input {
+    display: block;
+    width: 225px;
+    background: whitesmoke;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.email-form-input::placeholder {
+    font-size: 1rem;
+}
+
+.sign-up-btn {
+    padding: 10px 20px;
+    background: #64ffda;
+    color: black;
+    font-weight: 800;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.sign-up-btn:hover, .sign-up-btn:focus {
+    box-shadow: 0 0 5px #64ffda;
+}
+
+.sign-up-btn:active {
+    background: white;
+}
+
