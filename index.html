@@ -40,11 +40,11 @@
                 </div>
             </div>
         </heading>
-        <main>
+        <!-- <main>
             <section id="about-section">
                 <h3>01. About Me</h3>
             </section>
-        </main>
+        </main> -->
         <footer>
             <ul class="icon-list">
                 <li>
@@ -64,5 +64,52 @@
                 </li>
             </ul>
         </footer>
+        <div class="modal" id="modal">
+            <div class="close-btn-container">
+                <button class="close-btn" id="close-btn">x</button>
+            </div>
+            <div class="modal-inner" id="modal-inner">
+                <div class="modal-inner-text">
+                    <h1 class="modal-title">JOIN MY FOLLOWING</h1>
+                    <p class="modal-text">Follow my journey into tech, product, and startups — updates on what I’m building, learning, and shipping.</p>
+                </div>
+                <form class="email-form" id="email-form">
+                    <div>
+                        <label for="firstName">First Name</label>
+                        <input 
+                            class="email-form-input"
+                            type="text" 
+                            id ="firstName" 
+                            name="firstName" 
+                            placeholder="Colin"
+                            pattern="[a-zA-Z]+"
+                            required>
+                    </div>
+                    <div>
+                        <label for="lastName">Last Name</label>
+                        <input 
+                            class="email-form-input"
+                            type="text" 
+                            id ="lastName" 
+                            name="lastName" 
+                            placeholder="Chow"
+                            pattern="[a-zA-Z]+"
+                            required>
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input 
+                            class="email-form-input"
+                            type="email" 
+                            id ="email" 
+                            name="email" 
+                            placeholder="colinchow@email.com"
+                            required>
+                    </div>
+                    <button class="sign-up-btn" type="submit">SIGN UP</button>
+                </form>
+            </div>
+        </div>
+        <script src="index.js"></script>
     </body>
 </html>
